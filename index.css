@@ -1,0 +1,457 @@
+body{
+    margin:0;
+    padding:0;
+    /* background-color: rgba(217, 205, 205, 0.788); */
+}
+.scroll{
+    /* margin: 10px; */
+    display:flex;
+    gap:6px;
+    border-bottom:4px groove ;
+    border-radius: 10px;
+    /* flex-wrap:wrap; */
+
+}
+.scroll button{
+    height:40px;
+    width:150px;
+    padding: 4px;
+    border-radius:100px;
+    border-style:hidden  solid;
+    background-color:red;
+    color: white;
+    cursor:pointer;
+}
+
+
+marquee{
+    background-color:rgb(250 196 75 );
+    margin: 5px;
+    padding: 7px;
+    /* font-style:oblique; */
+    font-size:14px;
+    word-spacing: 3px;
+    
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:5px groove;
+    border-radius: 20px;
+    margin: 6px;
+    flex-wrap: wrap;
+    
+}
+.navbar form{
+    margin: 10px;
+    padding: 4px;
+}
+
+.navbar button{
+    width:30px;
+    height:19px;
+    background-color: red;
+    color:white;
+    border:none;
+}
+
+.login ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+    padding-right:50px;
+    
+}
+.login li{
+    cursor: pointer;
+    
+}
+.login li:hover{
+    border-radius: 50%;
+    border-top:2px solid white;
+    cursor: pointer;
+    
+}
+.navsection ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style:none;
+    gap:30px;
+    background-color: rgb(250 196 75 );
+    /* height:30px; */
+    font-family:Arial;
+    color: rgba(55, 48, 48, 0.739);
+    flex-wrap: wrap;
+}
+.navsection li{
+    cursor:pointer;
+}
+.navsection li:hover{
+    cursor:pointer;
+    color: black;
+}
+.banner{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    border-bottom:5px groove;
+    border-radius: 20px; 
+}
+.banner img{
+    margin:10px;
+    border-radius:20px;
+    overflow:hidden;
+}
+.Diwali_special{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.Diwali_special h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-decoration:underline solid rgb(242, 166, 0);
+    
+
+}
+
+.product_discription ul{
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+    flex-wrap:wrap;
+    font-size:12px;  
+}
+.product_discription button{
+   border-radius: 10px;
+
+}
+.product_discription button:hover{
+    cursor:pointer;
+    border:none;
+    border-radius: 10px;
+    background-color:rgb(242, 166, 0);
+    color:white;
+
+}
+
+.productMore{
+    display:flex;
+    justify-content:center;
+    border-bottom:5px groove;
+    border-radius: 20px;
+    
+    
+}
+.productMore button{
+    background-color: red;
+    color: #fff;
+    border:none;
+    height:30px;
+    width: 100px;
+    margin: 30px;
+    
+}
+
+.dry_fruits_treats h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-decoration:underline solid rgb(242, 166, 0);
+    
+}
+.dry_fruits_products ul{
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+    flex-wrap:wrap;
+    font-size:12px; 
+}
+.dry_fruits_products li{
+    list-style:none;
+
+}
+.dry_fruits_products button{
+    border-radius: 10px;
+ 
+}
+.dry_fruits_products button:hover{
+
+     cursor:pointer;
+     border:none;
+     border-radius: 10px;
+     background-color:rgb(242, 166, 0);
+     color:white;
+}
+.item_more{
+    display:flex;
+    justify-content:center;
+    border-bottom:5px groove;
+    border-radius: 20px;
+    
+    
+}
+.item_more button{
+    background-color: red;
+    color: #fff;
+    border:none;
+    height:30px;
+    width: 100px;
+    margin: 30px;
+    
+}
+
+.signature_collection h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-decoration:underline solid rgb(242, 166, 0);
+    
+}
+.chocolate_products ul{
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+    flex-wrap:wrap;
+    font-size:12px; 
+}
+.chocolate_products li{
+    list-style:none;
+
+}
+.chocolate_products button{
+    border-radius: 10px;
+ 
+}
+.chocolate_products button:hover{
+
+     cursor:pointer;
+     border:none;
+     border-radius: 10px;
+     background-color:rgb(242, 166, 0);
+     color:white;
+}
+.signature_more{
+    display:flex;
+    justify-content:center;
+    border-bottom:5px groove;
+    border-radius: 20px;
+    
+    
+}
+.signature_more button{
+    background-color: red;
+    color: #fff;
+    border:none;
+    height:30px;
+    width: 100px;
+    margin: 30px;
+    
+}
+.bestseller_collection h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-decoration:underline solid rgb(242, 166, 0);
+    
+}
+.bestseller_products ul{
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+    flex-wrap:wrap;
+    font-size:12px; 
+}
+.bestseller_products li{
+    list-style:none;
+
+}
+.bestseller_products button{
+    border-radius: 10px;
+ 
+}
+.bestseller_products button:hover{
+
+     cursor:pointer;
+     border:none;
+     border-radius: 10px;
+     background-color:rgb(242, 166, 0);
+     color:white;
+}
+.bestseller_more{
+    display:flex;
+    justify-content:center;
+    border-bottom:5px groove;
+    border-radius: 20px;
+    
+    
+}
+.bestseller_more button{
+    background-color: red;
+    color: #fff;
+    border:none;
+    height:30px;
+    width: 100px;
+    margin: 30px;
+    
+}
+.discover_categories h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-decoration:underline solid rgb(242, 166, 0);
+}
+.discover_dishes ul{
+    display:flex;
+    justify-content:space-evenly;
+    text-align: center;
+    /* margin:10px; */
+    list-style:none;
+    flex-wrap:wrap;
+}
+.discover_dishes li{
+    border: 2px solid;
+    border-width:thin;
+    padding:20px;
+    margin: 20px;
+}
+.discover_dishes button{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+    height:30px;
+    width: 200px;
+    margin: 30px;
+    
+}
+.discover_dishes{
+    border-bottom:5px groove;
+    border-radius: 20px;
+    flex-wrap:wrap;
+}
+.shopnow_card{
+    display: flex;
+    justify-content: space-around;
+    margin:30px;
+    flex-wrap:wrap;
+}
+.shopnow_card img{
+    /* margin:10px; */
+    border-radius:20px;
+    overflow:hidden;
+
+}
+.brand_banner{
+    display:flex;
+    justify-content:center;
+    border-bottom:5px groove;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    
+}
+.brand_banner img{
+    margin:10px;
+    border-radius:20px;
+    overflow:hidden;
+
+}
+
+.text_video{
+    display:flex;
+    margin: 50px;
+    text-align:left;
+    flex-wrap:wrap;
+
+}
+
+
+.text_video button{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+    height:30px;
+    width: 100px;
+    transition:1s ease;
+
+}
+.text_video button:hover{
+    width:250px;
+    border: 2px ridge black;
+    color: black;
+    background-color:rgb(250 196 75 ); 
+      
+}
+.subscribe{
+    display:flex;
+    justify-content:space-around;
+    margin:50px;
+    padding: 20px;
+    text-align:center;
+    background-color:rgb(250 196 75 );
+    flex-wrap: wrap;
+    
+}
+.subscribe input{
+    height: 30px;
+    width:250px;
+
+}
+.subscribe button{
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+    height:35px;
+    width: 80px;
+    transition:1s ease;
+
+}
+.subscribe button:hover{
+    width:250px;
+    border: 2px ridge black;
+    box-shadow: 3px 3px 7px;
+    color: black;
+    background-color:rgb(250 196 75 ) 
+}
+.final_links{
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom:5px groove;
+    border-radius: 20px;
+    flex-wrap:wrap;
+    
+}
+.final_links ul{
+    list-style: none;
+}
+.final_links .final_links5 i{
+    padding-right: 15px; 
+    
+}
+.Copyright_text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
